@@ -45,6 +45,10 @@ Outage records and maintenance work orders normally answer different questions a
 > [!NOTE]
 > **Status: 🚧 In development.** The semantic model and report visuals are built. Final report formatting and validation are ongoing, with machine learning and automation extensions planned.
 
+
+<img width="1404" height="765" alt="image" src="https://github.com/user-attachments/assets/d6f6080c-c4cd-46ba-8efa-203af9f5de1d" />
+
+
 ## 🎯 Business Problem
 
 Reviewing outages and maintenance separately makes it hard to see customer impact and outstanding work together. GridCare is built to answer:
