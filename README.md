@@ -100,34 +100,6 @@ Results for the full synthetic demo scope:
 
 ---
 
-## 🧩 Data Model
-
-GridCare uses a **star schema** with two fact tables sharing conformed dimensions.
-
-```mermaid
-erDiagram
-    DimDate    ||--o{ FactOutage    : "date"
-    DimFeeder  ||--o{ FactOutage    : "feeder"
-    DimCause   ||--o{ FactOutage    : "cause"
-    DimDate    ||--o{ FactWorkOrder : "date"
-    DimFeeder  ||--o{ FactWorkOrder : "feeder"
-
-    DimDate {
-        date Date
-    }
-    DimFeeder {
-        string FeederName
-    }
-    DimCause {
-        string Cause
-    }
-    FactOutage {
-        grain "one row per outage event"
-    }
-    FactWorkOrder {
-        grain "one row per work order"
-    }
-```
 
 **Design decisions**
 
@@ -228,7 +200,7 @@ Separating frequency (SAIFI) from duration (CAIDI) helps show whether a problem 
 
 ---
 
-## 🎓 What I Learned
+##  What I Learned
 
 This project builds practical skills in:
 
