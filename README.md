@@ -77,27 +77,7 @@ Reviewing outages and maintenance separately makes it hard to see customer impac
 | 4 | Which feeders carry the largest **outstanding maintenance workload**? |
 | 5 | Which **high-priority work orders** are overdue? |
 
----
 
-## 🖥️ Dashboard Preview
-
-### Page 1 — Reliability Overview
-Customer interruption experience: SAIDI, SAIFI and CAIDI, monthly trend, outage causes and the top feeders by customer minutes.
-
-<div align="center">
-<img src="images/reliability-overview.png" alt="Reliability Overview page" width="95%">
-</div>
-
-<br>
-
-### Page 2 — Maintenance Snapshot
-Maintenance status at the fixed snapshot date: open and overdue work, high-priority overdue jobs and planned effort.
-
-<div align="center">
-<img src="images/maintenance-snapshot.png" alt="Maintenance Snapshot page" width="95%">
-</div>
-
----
 
 ## 📊 Key Findings
 
