@@ -267,7 +267,7 @@ The focus is a report whose calculations, assumptions and intended actions can b
 > This is an **independent portfolio project**. It uses **fictional data** and does **not** contain real operational data or represent the performance of any actual electricity network. Actual improvements in reliability, productivity or cost would require implementation and measurement in an operational environment.
 
 <div align="center">
-
+ 
 <br>
 
 **⭐ If you found this useful, consider starring the repo.**
