@@ -1,0 +1,6 @@
+OneTable,OneColumn,ManyTable,ManyColumn,Cardinality,FilterDirection,Active
+DimDate,Date,FactOutage,OutageDate,One-to-many,Single dimension to fact,Yes
+DimDate,Date,FactWorkOrder,CreatedDate,One-to-many,Single dimension to fact,Yes
+DimFeeder,FeederKey,FactOutage,FeederKey,One-to-many,Single dimension to fact,Yes
+DimFeeder,FeederKey,FactWorkOrder,FeederKey,One-to-many,Single dimension to fact,Yes
+DimCause,CauseKey,FactOutage,CauseKey,One-to-many,Single dimension to fact,Yes

@@ -1,0 +1,181 @@
+WorkOrderID,CreatedDate,DueDate,ClosedDate,FeederKey,Priority,WorkType,Status,EstimatedHours,SnapshotDate
+WO-0001,2026-03-03,2026-04-17,2026-04-23,9,Low,Planned repair,Closed,18,2026-09-30
+WO-0002,2026-05-08,2026-05-29,,9,Medium,Equipment inspection,In progress,9,2026-09-30
+WO-0003,2026-06-16,2026-07-31,,7,Low,Equipment inspection,Open,7,2026-09-30
+WO-0004,2026-03-16,2026-04-30,2026-04-13,12,Low,Planned repair,Closed,23,2026-09-30
+WO-0005,2026-03-24,2026-04-14,2026-04-20,5,Medium,Vegetation inspection,Closed,19,2026-09-30
+WO-0006,2026-04-30,2026-05-07,,1,High,Equipment inspection,In progress,6,2026-09-30
+WO-0007,2026-01-27,2026-02-03,,6,High,Equipment inspection,In progress,15,2026-09-30
+WO-0008,2026-06-02,2026-06-09,,3,High,Planned repair,In progress,3,2026-09-30
+WO-0009,2026-02-11,2026-03-04,2026-03-05,10,Medium,Equipment inspection,Closed,10,2026-09-30
+WO-0010,2026-02-03,2026-02-24,,5,Medium,Vegetation inspection,Open,20,2026-09-30
+WO-0011,2026-07-24,2026-09-07,,6,Low,Planned repair,Open,2,2026-09-30
+WO-0012,2026-04-07,2026-04-14,2026-04-08,3,High,Vegetation inspection,Closed,19,2026-09-30
+WO-0013,2026-06-10,2026-06-17,,5,High,Vegetation inspection,In progress,15,2026-09-30
+WO-0014,2026-02-16,2026-03-09,2026-03-23,7,Medium,Vegetation inspection,Closed,17,2026-09-30
+WO-0015,2026-02-04,2026-02-25,,7,Medium,Equipment inspection,Open,18,2026-09-30
+WO-0016,2026-05-10,2026-06-24,,9,Low,Equipment inspection,In progress,10,2026-09-30
+WO-0017,2026-04-16,2026-05-07,2026-04-27,9,Medium,Vegetation inspection,Closed,10,2026-09-30
+WO-0018,2026-01-02,2026-01-23,2026-01-08,10,Medium,Planned repair,Closed,6,2026-09-30
+WO-0019,2026-03-20,2026-05-04,2026-04-05,5,Low,Planned repair,Closed,7,2026-09-30
+WO-0020,2026-04-04,2026-04-25,,9,Medium,Vegetation inspection,Open,10,2026-09-30
+WO-0021,2026-07-05,2026-07-12,,2,High,Equipment inspection,In progress,6,2026-09-30
+WO-0022,2026-01-19,2026-03-05,2026-01-29,7,Low,Equipment inspection,Closed,24,2026-09-30
+WO-0023,2026-06-21,2026-08-05,,7,Low,Equipment inspection,In progress,17,2026-09-30
+WO-0024,2026-09-12,2026-09-19,,4,High,Equipment inspection,Open,4,2026-09-30
+WO-0025,2026-01-07,2026-02-21,,9,Low,Vegetation inspection,In progress,19,2026-09-30
+WO-0026,2026-03-20,2026-04-10,2026-03-29,7,Medium,Equipment inspection,Closed,22,2026-09-30
+WO-0027,2026-02-22,2026-03-01,2026-03-17,3,High,Planned repair,Closed,2,2026-09-30
+WO-0028,2026-07-11,2026-08-01,2026-08-01,12,Medium,Planned repair,Closed,22,2026-09-30
+WO-0029,2026-07-21,2026-07-28,,8,High,Equipment inspection,In progress,16,2026-09-30
+WO-0030,2026-02-08,2026-03-01,2026-02-17,7,Medium,Equipment inspection,Closed,8,2026-09-30
+WO-0031,2026-01-16,2026-02-06,,10,Medium,Vegetation inspection,Open,4,2026-09-30
+WO-0032,2026-08-03,2026-08-10,,8,High,Planned repair,Open,7,2026-09-30
+WO-0033,2026-09-06,2026-09-13,2026-09-15,7,High,Equipment inspection,Closed,21,2026-09-30
+WO-0034,2026-05-03,2026-05-24,2026-05-29,7,Medium,Equipment inspection,Closed,10,2026-09-30
+WO-0035,2026-01-14,2026-01-21,,11,High,Equipment inspection,In progress,22,2026-09-30
+WO-0036,2026-09-19,2026-11-03,2026-09-22,7,Low,Planned repair,Closed,10,2026-09-30
+WO-0037,2026-03-14,2026-04-28,2026-03-25,9,Low,Planned repair,Closed,11,2026-09-30
+WO-0038,2026-03-22,2026-05-06,2026-04-06,4,Low,Planned repair,Closed,7,2026-09-30
+WO-0039,2026-05-03,2026-05-24,2026-06-29,7,Medium,Vegetation inspection,Closed,22,2026-09-30
+WO-0040,2026-05-10,2026-06-24,,4,Low,Vegetation inspection,In progress,10,2026-09-30
+WO-0041,2026-06-21,2026-07-12,,11,Medium,Planned repair,In progress,22,2026-09-30
+WO-0042,2026-06-29,2026-07-06,,5,High,Vegetation inspection,Open,22,2026-09-30
+WO-0043,2026-08-21,2026-09-11,2026-09-28,1,Medium,Planned repair,Closed,10,2026-09-30
+WO-0044,2026-01-29,2026-02-05,2026-03-12,4,High,Vegetation inspection,Closed,8,2026-09-30
+WO-0045,2026-03-11,2026-04-01,,2,Medium,Planned repair,Open,8,2026-09-30
+WO-0046,2026-01-05,2026-01-12,2026-01-11,4,High,Vegetation inspection,Closed,23,2026-09-30
+WO-0047,2026-05-04,2026-05-25,2026-06-27,3,Medium,Equipment inspection,Closed,2,2026-09-30
+WO-0048,2026-05-04,2026-05-25,2026-06-23,1,Medium,Equipment inspection,Closed,4,2026-09-30
+WO-0049,2026-07-24,2026-08-14,,7,Medium,Equipment inspection,In progress,9,2026-09-30
+WO-0050,2026-08-25,2026-10-09,2026-09-16,12,Low,Equipment inspection,Closed,14,2026-09-30
+WO-0051,2026-04-14,2026-04-21,2026-04-30,1,High,Planned repair,Closed,20,2026-09-30
+WO-0052,2026-02-24,2026-04-10,2026-04-07,1,Low,Equipment inspection,Closed,17,2026-09-30
+WO-0053,2026-02-12,2026-03-29,2026-04-10,11,Low,Vegetation inspection,Closed,15,2026-09-30
+WO-0054,2026-05-01,2026-05-08,2026-06-28,12,High,Equipment inspection,Closed,15,2026-09-30
+WO-0055,2026-06-10,2026-07-01,,1,Medium,Planned repair,Open,10,2026-09-30
+WO-0056,2026-02-26,2026-04-12,2026-02-27,1,Low,Equipment inspection,Closed,15,2026-09-30
+WO-0057,2026-08-19,2026-08-26,2026-09-11,4,High,Vegetation inspection,Closed,15,2026-09-30
+WO-0058,2026-04-13,2026-05-04,2026-04-20,1,Medium,Equipment inspection,Closed,2,2026-09-30
+WO-0059,2026-02-05,2026-03-22,,6,Low,Planned repair,Open,7,2026-09-30
+WO-0060,2026-07-06,2026-07-27,2026-08-26,5,Medium,Vegetation inspection,Closed,22,2026-09-30
+WO-0061,2026-01-19,2026-03-05,,3,Low,Equipment inspection,In progress,12,2026-09-30
+WO-0062,2026-06-20,2026-08-04,,1,Low,Planned repair,In progress,3,2026-09-30
+WO-0063,2026-01-13,2026-02-27,2026-02-05,7,Low,Vegetation inspection,Closed,11,2026-09-30
+WO-0064,2026-05-11,2026-06-01,2026-06-03,2,Medium,Equipment inspection,Closed,24,2026-09-30
+WO-0065,2026-02-19,2026-03-12,,7,Medium,Planned repair,Open,16,2026-09-30
+WO-0066,2026-05-25,2026-06-15,2026-05-27,5,Medium,Planned repair,Closed,2,2026-09-30
+WO-0067,2026-05-11,2026-06-01,2026-06-30,4,Medium,Vegetation inspection,Closed,14,2026-09-30
+WO-0068,2026-08-19,2026-09-09,,6,Medium,Planned repair,In progress,6,2026-09-30
+WO-0069,2026-03-31,2026-04-07,2026-05-06,1,High,Equipment inspection,Closed,20,2026-09-30
+WO-0070,2026-09-06,2026-09-27,2026-09-14,6,Medium,Planned repair,Closed,24,2026-09-30
+WO-0071,2026-09-29,2026-10-20,,7,Medium,Vegetation inspection,In progress,15,2026-09-30
+WO-0072,2026-01-07,2026-01-14,,7,High,Equipment inspection,In progress,7,2026-09-30
+WO-0073,2026-09-16,2026-09-23,2026-09-24,9,High,Planned repair,Closed,21,2026-09-30
+WO-0074,2026-04-18,2026-05-09,,10,Medium,Planned repair,Open,13,2026-09-30
+WO-0075,2026-04-27,2026-05-04,2026-06-23,11,High,Vegetation inspection,Closed,4,2026-09-30
+WO-0076,2026-06-18,2026-06-25,,7,High,Vegetation inspection,Open,15,2026-09-30
+WO-0077,2026-05-16,2026-06-06,2026-06-06,4,Medium,Vegetation inspection,Closed,4,2026-09-30
+WO-0078,2026-03-07,2026-03-28,2026-03-20,6,Medium,Equipment inspection,Closed,19,2026-09-30
+WO-0079,2026-04-06,2026-04-27,2026-04-08,11,Medium,Planned repair,Closed,15,2026-09-30
+WO-0080,2026-06-04,2026-06-25,2026-07-06,8,Medium,Equipment inspection,Closed,22,2026-09-30
+WO-0081,2026-04-11,2026-05-02,2026-05-05,3,Medium,Planned repair,Closed,19,2026-09-30
+WO-0082,2026-09-01,2026-09-22,,8,Medium,Planned repair,In progress,15,2026-09-30
+WO-0083,2026-05-15,2026-06-05,,5,Medium,Equipment inspection,In progress,12,2026-09-30
+WO-0084,2026-08-24,2026-08-31,2026-09-15,3,High,Vegetation inspection,Closed,12,2026-09-30
+WO-0085,2026-08-08,2026-08-29,2026-09-11,4,Medium,Planned repair,Closed,3,2026-09-30
+WO-0086,2026-09-17,2026-10-08,,4,Medium,Planned repair,In progress,7,2026-09-30
+WO-0087,2026-04-11,2026-05-26,2026-06-08,3,Low,Equipment inspection,Closed,20,2026-09-30
+WO-0088,2026-07-18,2026-07-25,2026-08-20,10,High,Planned repair,Closed,8,2026-09-30
+WO-0089,2026-09-09,2026-09-30,,5,Medium,Equipment inspection,Open,3,2026-09-30
+WO-0090,2026-07-11,2026-08-25,2026-07-31,5,Low,Equipment inspection,Closed,9,2026-09-30
+WO-0091,2026-06-30,2026-07-07,,9,High,Planned repair,In progress,21,2026-09-30
+WO-0092,2026-05-26,2026-06-02,,4,High,Equipment inspection,In progress,19,2026-09-30
+WO-0093,2026-08-25,2026-10-09,,1,Low,Equipment inspection,In progress,2,2026-09-30
+WO-0094,2026-03-17,2026-04-07,2026-04-05,3,Medium,Vegetation inspection,Closed,5,2026-09-30
+WO-0095,2026-06-06,2026-07-21,2026-07-10,12,Low,Planned repair,Closed,7,2026-09-30
+WO-0096,2026-03-03,2026-04-17,,7,Low,Planned repair,Open,6,2026-09-30
+WO-0097,2026-09-04,2026-09-11,2026-09-14,11,High,Equipment inspection,Closed,17,2026-09-30
+WO-0098,2026-01-16,2026-01-23,2026-01-23,5,High,Equipment inspection,Closed,12,2026-09-30
+WO-0099,2026-08-25,2026-09-01,2026-09-10,4,High,Vegetation inspection,Closed,14,2026-09-30
+WO-0100,2026-02-01,2026-02-22,2026-02-26,7,Medium,Vegetation inspection,Closed,19,2026-09-30
+WO-0101,2026-09-13,2026-10-28,,1,Low,Equipment inspection,Open,15,2026-09-30
+WO-0102,2026-07-15,2026-08-05,2026-08-11,11,Medium,Vegetation inspection,Closed,2,2026-09-30
+WO-0103,2026-08-21,2026-09-11,2026-09-03,7,Medium,Equipment inspection,Closed,21,2026-09-30
+WO-0104,2026-08-15,2026-08-22,,6,High,Equipment inspection,In progress,20,2026-09-30
+WO-0105,2026-08-05,2026-09-19,,7,Low,Equipment inspection,In progress,6,2026-09-30
+WO-0106,2026-08-26,2026-09-02,2026-09-05,4,High,Planned repair,Closed,11,2026-09-30
+WO-0107,2026-09-06,2026-09-27,,1,Medium,Equipment inspection,Open,16,2026-09-30
+WO-0108,2026-06-06,2026-06-13,2026-08-01,10,High,Planned repair,Closed,21,2026-09-30
+WO-0109,2026-07-31,2026-08-21,2026-09-05,7,Medium,Vegetation inspection,Closed,5,2026-09-30
+WO-0110,2026-07-15,2026-08-29,2026-08-26,1,Low,Vegetation inspection,Closed,6,2026-09-30
+WO-0111,2026-03-06,2026-03-27,2026-04-22,9,Medium,Equipment inspection,Closed,14,2026-09-30
+WO-0112,2026-04-13,2026-05-04,,5,Medium,Vegetation inspection,In progress,17,2026-09-30
+WO-0113,2026-06-04,2026-06-25,,9,Medium,Vegetation inspection,Open,20,2026-09-30
+WO-0114,2026-02-12,2026-02-19,2026-03-08,4,High,Equipment inspection,Closed,21,2026-09-30
+WO-0115,2026-01-29,2026-02-05,,11,High,Planned repair,In progress,17,2026-09-30
+WO-0116,2026-01-06,2026-02-20,2026-02-24,9,Low,Equipment inspection,Closed,20,2026-09-30
+WO-0117,2026-06-06,2026-06-27,2026-06-20,6,Medium,Planned repair,Closed,15,2026-09-30
+WO-0118,2026-07-14,2026-08-04,,5,Medium,Equipment inspection,In progress,14,2026-09-30
+WO-0119,2026-01-06,2026-01-27,2026-01-12,12,Medium,Planned repair,Closed,6,2026-09-30
+WO-0120,2026-06-17,2026-07-08,,3,Medium,Planned repair,In progress,5,2026-09-30
+WO-0121,2026-03-01,2026-03-22,,8,Medium,Vegetation inspection,In progress,16,2026-09-30
+WO-0122,2026-04-06,2026-04-27,,11,Medium,Planned repair,Open,24,2026-09-30
+WO-0123,2026-07-03,2026-07-24,2026-08-21,8,Medium,Equipment inspection,Closed,15,2026-09-30
+WO-0124,2026-02-07,2026-02-28,2026-03-29,5,Medium,Vegetation inspection,Closed,9,2026-09-30
+WO-0125,2026-08-04,2026-08-11,,8,High,Planned repair,In progress,8,2026-09-30
+WO-0126,2026-09-26,2026-10-17,,12,Medium,Equipment inspection,Open,24,2026-09-30
+WO-0127,2026-06-24,2026-07-01,2026-07-09,3,High,Vegetation inspection,Closed,8,2026-09-30
+WO-0128,2026-01-24,2026-02-14,,11,Medium,Planned repair,In progress,22,2026-09-30
+WO-0129,2026-03-28,2026-05-12,,8,Low,Planned repair,In progress,5,2026-09-30
+WO-0130,2026-05-18,2026-05-25,,6,High,Planned repair,Open,16,2026-09-30
+WO-0131,2026-02-23,2026-03-16,2026-03-14,3,Medium,Planned repair,Closed,23,2026-09-30
+WO-0132,2026-03-01,2026-03-22,,4,Medium,Planned repair,Open,15,2026-09-30
+WO-0133,2026-04-16,2026-05-07,2026-06-04,2,Medium,Vegetation inspection,Closed,14,2026-09-30
+WO-0134,2026-01-31,2026-02-07,2026-02-02,2,High,Equipment inspection,Closed,4,2026-09-30
+WO-0135,2026-05-03,2026-05-24,,1,Medium,Planned repair,In progress,16,2026-09-30
+WO-0136,2026-02-21,2026-03-14,2026-03-02,4,Medium,Equipment inspection,Closed,19,2026-09-30
+WO-0137,2026-02-01,2026-03-18,2026-03-03,10,Low,Planned repair,Closed,10,2026-09-30
+WO-0138,2026-02-23,2026-03-16,2026-03-18,4,Medium,Planned repair,Closed,23,2026-09-30
+WO-0139,2026-09-15,2026-10-30,2026-09-23,11,Low,Equipment inspection,Closed,20,2026-09-30
+WO-0140,2026-02-25,2026-04-11,2026-03-03,6,Low,Equipment inspection,Closed,5,2026-09-30
+WO-0141,2026-07-15,2026-08-05,2026-08-25,1,Medium,Equipment inspection,Closed,4,2026-09-30
+WO-0142,2026-01-01,2026-01-08,2026-02-12,1,High,Planned repair,Closed,16,2026-09-30
+WO-0143,2026-04-27,2026-05-18,2026-04-29,9,Medium,Planned repair,Closed,18,2026-09-30
+WO-0144,2026-09-20,2026-10-11,2026-09-29,6,Medium,Planned repair,Closed,24,2026-09-30
+WO-0145,2026-06-16,2026-07-07,2026-06-29,10,Medium,Vegetation inspection,Closed,5,2026-09-30
+WO-0146,2026-07-04,2026-07-11,2026-07-30,10,High,Planned repair,Closed,3,2026-09-30
+WO-0147,2026-04-09,2026-05-24,,5,Low,Vegetation inspection,Open,12,2026-09-30
+WO-0148,2026-01-27,2026-03-13,2026-03-23,3,Low,Planned repair,Closed,4,2026-09-30
+WO-0149,2026-01-20,2026-03-06,,9,Low,Planned repair,In progress,7,2026-09-30
+WO-0150,2026-06-06,2026-06-27,,10,Medium,Planned repair,In progress,21,2026-09-30
+WO-0151,2026-09-23,2026-11-07,,9,Low,Vegetation inspection,Open,7,2026-09-30
+WO-0152,2026-09-30,2026-10-21,,4,Medium,Vegetation inspection,Open,12,2026-09-30
+WO-0153,2026-01-18,2026-03-04,,6,Low,Equipment inspection,Open,3,2026-09-30
+WO-0154,2026-06-13,2026-07-28,,12,Low,Planned repair,Open,22,2026-09-30
+WO-0155,2026-04-10,2026-05-25,2026-05-16,12,Low,Equipment inspection,Closed,9,2026-09-30
+WO-0156,2026-04-15,2026-04-22,2026-04-23,11,High,Vegetation inspection,Closed,3,2026-09-30
+WO-0157,2026-03-13,2026-04-03,2026-04-09,1,Medium,Equipment inspection,Closed,2,2026-09-30
+WO-0158,2026-04-02,2026-04-09,,9,High,Vegetation inspection,In progress,5,2026-09-30
+WO-0159,2026-07-24,2026-09-07,,2,Low,Vegetation inspection,Open,12,2026-09-30
+WO-0160,2026-06-25,2026-07-16,2026-07-03,9,Medium,Vegetation inspection,Closed,4,2026-09-30
+WO-0161,2026-05-03,2026-05-24,2026-06-15,1,Medium,Equipment inspection,Closed,16,2026-09-30
+WO-0162,2026-06-13,2026-06-20,2026-07-27,4,High,Vegetation inspection,Closed,5,2026-09-30
+WO-0163,2026-04-28,2026-05-05,2026-05-19,10,High,Vegetation inspection,Closed,13,2026-09-30
+WO-0164,2026-05-01,2026-05-22,,10,Medium,Equipment inspection,In progress,11,2026-09-30
+WO-0165,2026-01-06,2026-01-27,2026-01-24,12,Medium,Vegetation inspection,Closed,3,2026-09-30
+WO-0166,2026-03-05,2026-03-12,,12,High,Equipment inspection,Open,14,2026-09-30
+WO-0167,2026-06-11,2026-07-02,2026-07-05,3,Medium,Vegetation inspection,Closed,13,2026-09-30
+WO-0168,2026-06-26,2026-07-03,,10,High,Vegetation inspection,Open,24,2026-09-30
+WO-0169,2026-09-26,2026-10-17,,6,Medium,Planned repair,Open,16,2026-09-30
+WO-0170,2026-07-24,2026-09-07,2026-08-11,2,Low,Vegetation inspection,Closed,15,2026-09-30
+WO-0171,2026-05-17,2026-06-07,2026-06-24,12,Medium,Vegetation inspection,Closed,18,2026-09-30
+WO-0172,2026-05-31,2026-07-15,2026-06-07,12,Low,Planned repair,Closed,3,2026-09-30
+WO-0173,2026-07-26,2026-08-16,,12,Medium,Equipment inspection,In progress,18,2026-09-30
+WO-0174,2026-06-18,2026-07-09,2026-07-06,10,Medium,Equipment inspection,Closed,13,2026-09-30
+WO-0175,2026-01-09,2026-01-16,2026-01-22,1,High,Equipment inspection,Closed,10,2026-09-30
+WO-0176,2026-07-21,2026-07-28,2026-08-29,7,High,Vegetation inspection,Closed,8,2026-09-30
+WO-0177,2026-06-14,2026-06-21,2026-07-15,3,High,Vegetation inspection,Closed,17,2026-09-30
+WO-0178,2026-05-10,2026-06-24,2026-07-02,10,Low,Planned repair,Closed,9,2026-09-30
+WO-0179,2026-07-02,2026-08-16,2026-07-11,4,Low,Vegetation inspection,Closed,24,2026-09-30
+WO-0180,2026-05-06,2026-05-27,2026-05-26,8,Medium,Planned repair,Closed,3,2026-09-30

@@ -1,0 +1,33 @@
+Table,Column,Type,Nullable,Definition
+DimDate,Date,date,No,"Calendar day, unique and contiguous across 2026"
+DimDate,Year,int,No,Calendar year
+DimDate,MonthNumber,int,No,Month sort key 1-12
+DimDate,Month,text,No,Short month label; sort by MonthNumber
+DimDate,YearMonth,text,No,Sortable YYYY-MM label
+DimDate,Quarter,text,No,Calendar quarter
+DimFeeder,FeederKey,int,No,Synthetic feeder integer key
+DimFeeder,FeederName,text,No,Fictional feeder identifier; not an actual network asset
+DimFeeder,DemoArea,text,No,Fictional grouping; not official operating regions
+DimFeeder,NetworkType,text,No,Synthetic urban/rural attribute
+DimFeeder,CustomersServed,int,No,"Fixed connected customer count for this demo period; denominator, not impacted customers"
+DimFeeder,CircuitLengthKm,number,No,Fictional circuit length in kilometres
+DimCause,CauseKey,int,No,Synthetic cause integer key
+DimCause,Cause,text,No,Primary cause classification; one per event
+FactOutage,OutageID,text,No,Unique event affecting one feeder and one customer group
+FactOutage,OutageDate,date,No,Event start date; all customer minutes attributed to this date
+FactOutage,FeederKey,int,No,Synthetic feeder integer key
+FactOutage,CauseKey,int,No,Synthetic cause integer key
+FactOutage,OutageType,text,No,Planned or Unplanned
+FactOutage,DurationMinutes,int,No,Same interruption duration for all customers in this event
+FactOutage,CustomersInterrupted,int,No,Customer interruptions for this event; repeated customers across events are counted again
+FactOutage,CustomerMinutesInterrupted,int,No,DurationMinutes multiplied by CustomersInterrupted
+FactWorkOrder,WorkOrderID,text,No,Unique maintenance work order
+FactWorkOrder,CreatedDate,date,No,Date order raised; active date relationship
+FactWorkOrder,DueDate,date,No,Scheduled due date; before snapshot date is overdue if still open
+FactWorkOrder,ClosedDate,date,Yes,"Completion date, nullable for open orders"
+FactWorkOrder,FeederKey,int,No,Synthetic feeder integer key
+FactWorkOrder,Priority,text,No,"High, Medium or Low; fictional business classification"
+FactWorkOrder,WorkType,text,No,Maintenance activity; no causal join to outage cause
+FactWorkOrder,Status,text,No,"Closed, Open or In progress as of snapshot date"
+FactWorkOrder,EstimatedHours,int,No,"Estimated job effort, not actual hours or financial savings"
+FactWorkOrder,SnapshotDate,date,No,Fixed status snapshot: 2026-09-30

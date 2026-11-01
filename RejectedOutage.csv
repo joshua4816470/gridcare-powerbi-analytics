@@ -1,0 +1,5 @@
+SourceLine,OutageID,OutageDate,FeederKey,CauseKey,OutageType,DurationMinutes,CustomersInterrupted,RejectionReason
+482,OUT-0001,2026-09-11,6,1,Unplanned,95,516,Duplicate OutageID
+483,BAD-01,2026-01-08,1,3,Unplanned,-20,247,Non-positive duration
+484,BAD-02,2026-09-29,999,2,Unplanned,10,32,Unknown FeederKey
+485,BAD-03,2026-05-04,4,999,Planned,109,754,Unknown CauseKey

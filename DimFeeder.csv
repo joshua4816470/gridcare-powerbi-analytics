@@ -1,0 +1,13 @@
+FeederKey,FeederName,DemoArea,NetworkType,CustomersServed,CircuitLengthKm
+1,DEMO-F01,Western Metro,Urban,1750,10.7
+2,DEMO-F02,Western Metro,Urban,2000,13.4
+3,DEMO-F03,Western Metro,Urban,2250,16.1
+4,DEMO-F04,Growth Corridor,Urban,2500,18.8
+5,DEMO-F05,Growth Corridor,Urban,2750,21.5
+6,DEMO-F06,Growth Corridor,Urban,3000,24.2
+7,DEMO-F07,Coastal,Urban,3250,26.9
+8,DEMO-F08,Coastal,Urban,3500,29.6
+9,DEMO-F09,Coastal,Urban,3750,32.3
+10,DEMO-F10,Rural,Rural,4000,35.0
+11,DEMO-F11,Rural,Rural,4250,37.7
+12,DEMO-F12,Rural,Rural,4500,40.4

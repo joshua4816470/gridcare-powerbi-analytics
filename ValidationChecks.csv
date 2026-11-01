@@ -1,0 +1,17 @@
+Check,Result
+DimDate primary key unique,PASS
+DimFeeder primary key unique,PASS
+DimCause primary key unique,PASS
+FactOutage primary key unique,PASS
+FactWorkOrder primary key unique,PASS
+Outage date foreign keys,PASS
+Work created date foreign keys,PASS
+Feeder foreign keys,PASS
+Cause foreign keys,PASS
+Customer bounds and CMI,PASS
+Closed work dates consistent,PASS
+Raw reconciliation,PASS
+SQL and Python customer minutes,PASS
+SQL and Python backlog,PASS
+Monthly additive reliability denominator,PASS
+Weighted feeder SAIDI equals network SAIDI,PASS
