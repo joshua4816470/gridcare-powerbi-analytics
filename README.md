@@ -48,6 +48,9 @@ Outage records and maintenance work orders normally answer different questions a
 
 <img width="1404" height="765" alt="image" src="https://github.com/user-attachments/assets/d6f6080c-c4cd-46ba-8efa-203af9f5de1d" />
 
+<img width="1386" height="678" alt="image" src="https://github.com/user-attachments/assets/b5dcc1c9-0596-44f3-9ce3-47b038eb2ed4" />
+
+
 
 ## 🎯 Business Problem
 
