@@ -19,40 +19,22 @@
 ![Model](https://img.shields.io/badge/model-star%20schema-teal?style=flat-square)
 ![Snapshot](https://img.shields.io/badge/snapshot-30%20Sep%202026-lightgrey?style=flat-square)
 
-<br>
-
-<img src="images/reliability-overview.png" alt="GridCare Reliability Overview dashboard" width="92%">
-
-<br><br>
-
-<table>
-  <tr>
-    <td align="center"><b>📈 Reliability Overview</b><br><br><img src="images/reliability-overview.png" alt="Reliability Overview" width="100%"></td>
-    <td align="center"><b>🛠️ Maintenance Snapshot</b><br><br><img src="images/maintenance-snapshot.png" alt="Maintenance Snapshot" width="100%"></td>
-  </tr>
-</table>
-
 </div>
-
----
 
 ## 📑 Table of Contents
 
 - [Overview](#-overview)
 - [Business Problem](#-business-problem)
-- [Dashboard Preview](#-dashboard-preview)
 - [Key Findings](#-key-findings)
+- [Report Pages](#-report-pages)
 - [Data Model](#-data-model)
 - [Dataset](#-dataset)
 - [KPI Definitions](#-kpi-definitions)
-- [Report Pages](#-report-pages)
 - [Tech Stack](#-tech-stack)
 - [Limitations](#-limitations)
 - [Roadmap](#-roadmap)
 - [What I Learned](#-what-i-learned)
 - [Disclaimer](#-disclaimer)
-
----
 
 ## 🔍 Overview
 
@@ -62,8 +44,6 @@ Outage records and maintenance work orders normally answer different questions a
 
 > [!NOTE]
 > **Status: 🚧 In development.** The semantic model and report visuals are built. Final report formatting and validation are ongoing, with machine learning and automation extensions planned.
-
----
 
 ## 🎯 Business Problem
 
@@ -76,8 +56,6 @@ Reviewing outages and maintenance separately makes it hard to see customer impac
 | 3 | How **long** do interruptions last? |
 | 4 | Which feeders carry the largest **outstanding maintenance workload**? |
 | 5 | Which **high-priority work orders** are overdue? |
-
-
 
 ## 📊 Key Findings
 
@@ -98,19 +76,43 @@ Results for the full synthetic demo scope:
 > [!IMPORTANT]
 > These findings support investigation and maintenance planning. **They do not establish that overdue maintenance caused outages.**
 
----
+## 📄 Report Pages
 
+### 1️⃣ Reliability Overview
+
+Explores the customer interruption experience.
+
+- SAIDI, SAIFI, CAIDI and customer base cards
+- Monthly SAIDI trend
+- Customer minutes by outage cause
+- Top six feeders ranked by customer interruption minutes
+- "Investigate first" callout summarising the priority feeder
+
+### 2️⃣ Maintenance Snapshot
+
+Shows maintenance status at the fixed snapshot date.
+
+- KPI cards: open, overdue, high-priority overdue and estimated hours
+- Clustered bar chart comparing open and overdue orders by feeder (overdue is included within open, so the bars sit side by side)
+- Work-order table, being refined into a **high-priority overdue review queue**
+
+## 🧩 Data Model
+
+GridCare uses a **star schema** with two fact tables sharing conformed dimensions.
+
+| Fact Table | Grain | Connected Dimensions |
+|------------|-------|----------------------|
+| `FactOutage` | One row per outage event | `DimDate`, `DimFeeder`, `DimCause` |
+| `FactWorkOrder` | One row per work order | `DimDate`, `DimFeeder` |
 
 **Design decisions**
 
--  **One-to-many** relationships from dimensions to facts.
--  **Single-direction** filtering, from dimensions to facts.
--  **shared feeder dimension** gives consistent filtering across outage and maintenance reporting.
--  **Separate fact tables** preserve each dataset's level of detail and avoid multiplying records through a direct fact-to-fact join.
+- ✅ **One-to-many** relationships from dimensions to fact tables
+- ✅ **Single-direction** filtering, from dimensions to facts
+- ✅ A **shared feeder dimension** for consistent filtering across outage and maintenance reporting
+- ✅ **Separate fact tables** that preserve each dataset's level of detail and avoid multiplying records through a direct fact-to-fact join
 
----
-
-##  Dataset
+## 🗂️ Dataset
 
 All data is **fictional**, generated with Python for an electricity distribution reporting scenario.
 
@@ -124,15 +126,13 @@ All data is **fictional**, generated with Python for an electricity distribution
 
 The maintenance dataset represents a **fixed snapshot as at 30 September 2026**.
 
----
-
-##  KPI Definitions
+## 📐 KPI Definitions
 
 | KPI | Meaning | Reads as |
 |-----|---------|----------|
 | **SAIDI** | Average total interruption minutes per customer in the selected period | *How long, in total, does a typical customer lose supply?* |
 | **SAIFI** | Average number of interruptions per customer in the selected period | *How often are customers interrupted?* |
-| **CAIDI** | Average duration of a customer interruption (SAIDI ÷ SAIFI) | *When it happens, how long does it last?* |
+| **CAIDI** | Average duration of a customer interruption | *When it happens, how long does it last?* |
 
 Separating frequency (SAIFI) from duration (CAIDI) helps show whether a problem is **many short outages** or **fewer long ones**.
 
@@ -147,25 +147,7 @@ Separating frequency (SAIFI) from duration (CAIDI) helps show whether a problem 
 
 > Snapshot KPI measures **remove calendar-date filters while retaining feeder filters**, keeping maintenance reporting consistent with the fixed snapshot date.
 
----
-
-##  Report Pages
-
-### 1️⃣ Reliability Overview
-- SAIDI, SAIFI, CAIDI and customer base cards
-- Monthly SAIDI trend
-- Customer minutes by outage cause
-- Top six feeders ranked by customer interruption minutes
-- "Investigate first" callout summarising the priority feeder
-
-### 2️⃣ Maintenance Snapshot
-- KPI cards: open, overdue, high-priority overdue and estimated hours
-- Clustered bar chart comparing open and overdue orders by feeder (overdue is included within open, so the bars sit side by side)
-- Work-order table, being refined into a **high-priority overdue review queue**
-
----
-
-##  Tech Stack
+## 🛠️ Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -175,17 +157,13 @@ Separating frequency (SAIFI) from duration (CAIDI) helps show whether a problem 
 | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square) | Synthetic dataset generation and supporting analysis |
 | ![CSV](https://img.shields.io/badge/-CSV-555555?style=flat-square) | Source datasets for the reporting model |
 
----
-
-##  Limitations
+## ⚠️ Limitations
 
 - The data is **synthetic** and does not reflect real-world operational performance.
 - Maintenance records hold **one snapshot**, so historical backlog change cannot be shown.
 - Estimated hours are **planned effort**, not actual time spent or hours saved.
 - A feeder's outage impact and its overdue maintenance **do not prove causation**.
 - Report formatting and final validation are still being completed.
-
----
 
 ## 🗺️ Roadmap
 
@@ -198,29 +176,23 @@ Separating frequency (SAIFI) from duration (CAIDI) helps show whether a problem 
 - [ ] Automated **data-quality checks** and repeatable reporting outputs
 - [ ] Daily maintenance snapshots or status-change records to analyse **backlog trends**
 
----
-
-##  What I Learned
+## 🎓 What I Learned
 
 This project builds practical skills in:
 
-- **Dimensional modelling** — choosing grain and keeping facts separate
-- **DAX** — context-aware KPIs and snapshot logic
-- **Operational reporting** — turning records into decisions
-- **Communication** — explaining findings, assumptions and limits to non-technical stakeholders
+- **Dimensional modelling:** choosing grain and keeping facts separate
+- **DAX:** context-aware KPIs and snapshot logic
+- **Operational reporting:** turning records into decisions
+- **Communication:** explaining findings, assumptions and limits to non-technical stakeholders
 
 The focus is a report whose calculations, assumptions and intended actions can be clearly explained.
 
----
-
-##  Disclaimer
+## 📜 Disclaimer
 
 > [!WARNING]
 > This is an **independent portfolio project**. It uses **fictional data** and does **not** contain real operational data or represent the performance of any actual electricity network. Actual improvements in reliability, productivity or cost would require implementation and measurement in an operational environment.
 
 <div align="center">
- 
-<br>
 
 **⭐ If you found this useful, consider starring the repo.**
 
