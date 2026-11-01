@@ -151,14 +151,14 @@ erDiagram
 
 **Design decisions**
 
-- ✅ **One-to-many** relationships from dimensions to facts.
-- ✅ **Single-direction** filtering, from dimensions to facts.
-- ✅ A **shared feeder dimension** gives consistent filtering across outage and maintenance reporting.
-- ✅ **Separate fact tables** preserve each dataset's level of detail and avoid multiplying records through a direct fact-to-fact join.
+-  **One-to-many** relationships from dimensions to facts.
+-  **Single-direction** filtering, from dimensions to facts.
+-  **shared feeder dimension** gives consistent filtering across outage and maintenance reporting.
+-  **Separate fact tables** preserve each dataset's level of detail and avoid multiplying records through a direct fact-to-fact join.
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 All data is **fictional**, generated with Python for an electricity distribution reporting scenario.
 
@@ -174,7 +174,7 @@ The maintenance dataset represents a **fixed snapshot as at 30 September 2026**.
 
 ---
 
-## 📐 KPI Definitions
+##  KPI Definitions
 
 | KPI | Meaning | Reads as |
 |-----|---------|----------|
@@ -197,7 +197,7 @@ Separating frequency (SAIFI) from duration (CAIDI) helps show whether a problem 
 
 ---
 
-## 📄 Report Pages
+##  Report Pages
 
 ### 1️⃣ Reliability Overview
 - SAIDI, SAIFI, CAIDI and customer base cards
@@ -213,7 +213,7 @@ Separating frequency (SAIFI) from duration (CAIDI) helps show whether a problem 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -225,7 +225,7 @@ Separating frequency (SAIFI) from duration (CAIDI) helps show whether a problem 
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - The data is **synthetic** and does not reflect real-world operational performance.
 - Maintenance records hold **one snapshot**, so historical backlog change cannot be shown.
@@ -261,7 +261,7 @@ The focus is a report whose calculations, assumptions and intended actions can b
 
 ---
 
-## 📜 Disclaimer
+##  Disclaimer
 
 > [!WARNING]
 > This is an **independent portfolio project**. It uses **fictional data** and does **not** contain real operational data or represent the performance of any actual electricity network. Actual improvements in reliability, productivity or cost would require implementation and measurement in an operational environment.
